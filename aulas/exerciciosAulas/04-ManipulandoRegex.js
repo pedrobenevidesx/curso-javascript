@@ -11,7 +11,7 @@ console.log(value)
 //Match - Procura padroes no texto e retorna o que foi encontrado
 const texto = "Tenho 2 gatos, 3 cachorros e 1 peixe"
 
-const regex = /\D+/g
+const regex = /\d+/g
 
 const value = texto.match(regex)
 

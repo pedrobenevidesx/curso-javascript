@@ -27,6 +27,6 @@ function Pessoa(nome) {
     }
 }
 
-const pessoa1 = new pessoa("Pedro")
+const pessoa1 = new Pessoa("Pedro")
 console.log(pessoa1.nome)
 pessoa1.mensagem()
