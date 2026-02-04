@@ -1,3 +1,5 @@
+const { jsx } = require("react/jsx-runtime");
+
 // Cotacao de moedas.
 const USD = 5.37
 const EUR = 6.23
